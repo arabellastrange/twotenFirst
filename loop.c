@@ -8,8 +8,8 @@ float calc_volume(int radius);
 int main(void){
 	int radius = 0;
 	char option;
-	int i = 0
-	for (i < 10)
+	int i;
+	for (i = 0; i < 10; i = i+1)
 	{
 		printf("Enter a value for the radius: ");
 		scanf("%d", &radius);
@@ -35,7 +35,6 @@ int main(void){
 			printf("You cannot enter a negative number \n");
 		}
 
-		i = i+1;
 	}
 	return 0;
 }
@@ -46,7 +45,6 @@ float calc_area(int radius){
 	float sArea;
 	sArea = 4*PI*(radius*radius);
 	return sArea;
-	/*should return aprox 615.752*/
 
 }
 
@@ -55,5 +53,4 @@ float calc_volume(int radius){
 	float sVolume;
 	sVolume = (4.000f/3.000f)*PI*(radius*radius*radius);
 	return sVolume;
-	/* should reutrn aprox 1436.76 */
 }

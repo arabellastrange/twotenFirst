@@ -28,8 +28,6 @@ float calc_area(int radius){
 	float sArea;
 	sArea = 4*PI*(radius*radius);
 	return sArea;
-	/*should return aprox 615.752*/
-
 }
 
 /* A function which calculates the volume of a sphere */
@@ -37,5 +35,4 @@ float calc_volume(int radius){
 	float sVolume;
 	sVolume = (4.000f/3.000f)*PI*(radius*radius*radius);
 	return sVolume;
-	/* should reutrn aprox 1436.76 */
 }

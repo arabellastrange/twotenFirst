@@ -8,7 +8,7 @@ float calc_area(int radius);
 int main(void){
 	int radius = 7;
 
-	printf("For a radis of %i he area of the sphere is %.2f \n", radius, calc_area(radius) );
+	printf("For a radius of %i he area of the sphere is %.2f \n", radius, calc_area(radius) );
 
 	return 0;
 }
